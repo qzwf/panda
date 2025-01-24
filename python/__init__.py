@@ -137,6 +137,7 @@ class Panda:
   SAFETY_FAW = 26
   SAFETY_BODY = 27
   SAFETY_HYUNDAI_CANFD = 28
+  SAFETY_BYD_ATTO3 = 29
 
   SERIAL_DEBUG = 0
   SERIAL_ESP = 1
@@ -224,6 +225,8 @@ class Panda:
 
   FLAG_FORD_LONG_CONTROL = 1
   FLAG_FORD_CANFD = 2
+
+  FLAG_BYD_ATTO3 = 1
 
   def __init__(self, serial: str | None = None, claim: bool = True, disable_checks: bool = True, can_speed_kbps: int = 500, cli: bool = True):
     self._disable_checks = disable_checks
