@@ -34,7 +34,7 @@
 // *** all output safety mode ***
 
 // Enables passthrough mode where relay is open and bus 0 gets forwarded to bus 2 and vice versa
-// static bool alloutput_passthrough = true;
+static bool alloutput_passthrough = true;
 
 // static safety_config alloutput_init(uint16_t param) {
 //   // Enables passthrough mode where relay is open and bus 0 gets forwarded to bus 2 and vice versa
