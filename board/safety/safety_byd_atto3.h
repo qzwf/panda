@@ -2,6 +2,28 @@
 
 #include "safety_declarations.h"
 
+#define BYD_ATTO3_STEERING_TORQUE       0x1FC // 508
+#define BYD_ATTO3_STEERING_MODULE_ADAS  0x1E2 // 482
+#define BYD_ATTO3_PEDAL                 0x342 // 834
+#define BYD_ATTO3_METER_CLUSTER         0x294 // 660
+#define BYD_ATTO3_STALKS                0x133 // 307
+#define BYD_ATTO3_STEER_MODULE_2        0x11F // 287
+#define BYD_ATTO3_PCM_BUTTONS           0x3B0 // 944
+#define BYD_ATTO3_PEDAL_PRESSED         0x220 // 544
+#define BYD_ATTO3_DRIVE_STATE           0x242 // 578
+#define BYD_ATTO3_ACC_HUD_ADAS          0x32D // 813
+#define BYD_ATTO3_LKAS_HUD_ADAS         0x316 // 790
+#define BYD_ATTO3_ACC_CMD               0x32E // 814
+#define BYD_ATTO3_BSM                   0x418 // 1048
+#define BYD_ATTO3_WHEEL_SPEED           0x122 // 290
+#define BYD_ATTO3_WHEELSPEED_CLEAN      0x1F0 // 496
+
+// CAN bus numbers to be updated for BYD_ATTO3
+// #define FORD_MAIN_BUS 0U
+// #define FORD_CAM_BUS  2U
+
+
+
 // void default_rx_hook(const CANPacket_t *to_push) {
 //   UNUSED(to_push);
 // }
