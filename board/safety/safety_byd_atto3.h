@@ -1,6 +1,6 @@
-// #pragma once
+#pragma once
 
-// #include "safety_declarations.h"
+#include "safety_declarations.h"
 
 // void default_rx_hook(const CANPacket_t *to_push) {
 //   UNUSED(to_push);
@@ -34,7 +34,7 @@
 // *** all output safety mode ***
 
 // Enables passthrough mode where relay is open and bus 0 gets forwarded to bus 2 and vice versa
-// static bool alloutput_passthrough = false;
+static bool alloutput_passthrough = true;
 
 // static safety_config alloutput_init(uint16_t param) {
 //   // Enables passthrough mode where relay is open and bus 0 gets forwarded to bus 2 and vice versa
