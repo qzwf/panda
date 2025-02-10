@@ -226,7 +226,7 @@ class Panda:
   FLAG_FORD_LONG_CONTROL = 1
   FLAG_FORD_CANFD = 2
 
-  FLAG_BYD_ATTO3 = 1
+  # FLAG_BYD_ATTO3 = 1
 
   def __init__(self, serial: str | None = None, claim: bool = True, disable_checks: bool = True, can_speed_kbps: int = 500, cli: bool = True):
     self._disable_checks = disable_checks
